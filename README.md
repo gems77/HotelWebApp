@@ -1,59 +1,59 @@
-# Hotel Booking Application
-### Overview
-This project is a Hotel Booking Application developed using ReactJS for the front-end and Spring Boot for the back-end. The application provides two roles: Admin and User. Each role has specific functionalities as described below.
+# HotelWebApp
+### Vue d'ensemble
+Ce projet est une application de réservation d'hôtel développée en utilisant ReactJS pour le front-end et Spring Boot pour le back-end. L'application propose deux rôles : Admin et Utilisateur. Chaque rôle a des fonctionnalités spécifiques décrites ci-dessous.
 
 ### Demo
-https://github.com/Avinash4231/Hotel-Booking-application-using-ReactJS-and-SpringBoot/assets/119235391/ea5f7f74-b19b-4dcd-9b83-80fd74755611
+https://github.com/gems77/HotelWebApp/assets/119235391/ea5f7f74-b19b-4dcd-9b83-80fd74755611
 
-## Features
-### Admin Role
-#### Admins have the following permissions:
+## Caractéristiques
+###  Role Admin
+#### Les administrateurs disposent des autorisations suivantes :
 ```
-View all bookings
-Cancel any booking
-Add new rooms
-Update room details
-Delete rooms
+Voir toutes les réservations
+Annuler une réservation
+Ajouter de nouvelles chambres
+Mettre à jour les détails d'une chambre
+Supprimer des chambres
 ```
-### User Role
-#### Users have the following permissions:
+### Rôle de l'utilisateur
+#### Les utilisateurs disposent des autorisations suivantes :
 ```
-Book a room
-View their bookings
+Réserver une chambre
+Voir leurs réservations
 ```
-### Technologies Used
+### Technologies Utilisées
 Front-end: ReactJS, Redux, Axios
 Back-end: Spring Boot, Spring Security, JPA, Hibernate
 Database: MySQL
 
 ### Installation
-###### Prerequisites - Ensure you have the following installed:
+###### Conditions préalables - Assurez-vous que les éléments suivants sont installés :
 Node.js
 npm or yarn
 Java (JDK 11 or above)
 MySQL
 
-#### Front-end Setup
-##### Navigate to the frontend directory:
+#### Configuration de l'interface
+##### Naviguez jusqu'au répertoire frontend :
 ```
-cd frontend/Hotel-booking-application
+cd frontend/HotelWebApp
 ```
-##### Install the dependencies:
+##### Installer les dépendances :
 ```
 npm install
 ```
-##### Start the development server:
+##### Démarrer le serveur de développement :
 ```
 npm start
 ```
 
-### Back-end Setup
-##### Navigate to the backend directory:
+### Configuration du back-end
+##### Naviguez jusqu'au répertoire du backend :
 ```
-cd backend/HotelBookingApplication
+cd backend/HotelWebApplication
 ```
 
-##### Configure the database connection in src/main/resources/application.properties:
+##### Configurez la connexion à la base de données dans src/main/resources/application.properties :
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/hotel_booking
 spring.datasource.username=your_username
@@ -61,18 +61,18 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-##### Build the project:
+##### Construire le projet :
 ```
 ./mvnw clean install
 ```
-##### Run the Spring Boot application:
+##### Exécutez l'application Spring Boot :
 ```
 ./mvnw spring-boot:run
 ``` 
 ### Usage
-Register as a user or log in if you already have an account.
-Admins can access the admin dashboard to manage rooms and bookings.
-Users can browse available rooms and make bookings.
+Inscrivez-vous en tant qu'utilisateur ou connectez-vous si vous avez déjà un compte.
+Les administrateurs peuvent accéder au tableau de bord pour gérer les salles et les réservations.
+Les utilisateurs peuvent consulter les salles disponibles et effectuer des réservations.
 
 ### API Endpoints
 ##### Admin Endpoints
